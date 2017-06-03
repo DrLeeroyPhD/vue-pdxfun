@@ -16,16 +16,24 @@
     <body>
       <div id="app">
         <navigation></navigation>
-      </div>
-      
-      
-      
-      
-      <section class="hero">
+        <hero></hero>
         
-      </section>
-      
-      
+        <section id="inventory">
+          <div class="inventory-content">
+            <div class="item" v-for="category in inventory">
+              <img :src="category.src" />
+              <h4>{{ category.title }}</h4>
+            </div>
+          </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+      </div>
       
       <script type="text/javascript" src="https://unpkg.com/vue"></script>
       <script type="text/javascript" src="assets/js/rellax.min.js"></script>
