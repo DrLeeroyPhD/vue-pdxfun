@@ -1,7 +1,80 @@
+/************ GLOBALS ************/
+*{
+    font-family: 'Russo One', sans-serif;
+}
+
+.is-primary{
+    color: #5bc0de;
+}
+
+button.is-primary{
+    background-color: #5bc0de;
+}
+
+.is-secondary{
+    color: #fec28e;
+}
+
+a{
+    text-decoration: none;
+}
+
+/** Navigation **/
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fec28e;
+    padding: 8px 0;
+}
+
+.nav-left{
+    
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 1.4em;
+    color: white;
+    transition: color 0.1s ease-in;
+    
+}
+
+.nav-item:hover{
+    color: black;
+    transition: color 0.1s ease-in;
+}
+
+.brand-img img{
+    height: 60px;
+}
+
 nav div{
     background-color: #fec28e;
 }
 
-.header-image{
-    background-image: url(assets/img/balloons.jpeg);
+/** Hero **/
+
+.hero{
+    background-image: url(../img/balloons.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1.title{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2.subtitle{
+    color: #95a5a6;
+    text-shadow: 1px 1px 1px black;
 }
