@@ -27,7 +27,7 @@ Vue.component('hero', {
         </h3>
         <form class="cta">
           <input type="email" name="" placeholder="Enter Your Email Address" class="cta-email" />
-          <input type="submit" value="Invite Me!" class="cta-submit"/>
+          <input type="submit" value="Invite Me!" class="cta-submit is-primary"/>
         </form>
       </div>
     </section>
@@ -72,8 +72,25 @@ new Vue({
        deliver: {
          title: "See Where We Deliver",
          src: "assets/img/portland_map.jpg",
-         description: ""
+         description: "We can deliver further for an additional fee."
        }
+     },
+     reviews: {
+         michael: {
+             name: "Michael Robson",
+             src: "assets/img/review1.jpg",
+             review: "Look at those inflatables, I mean, need I say more?"
+         },
+         pete: {
+             name: "Pete Ford",
+             src: "assets/img/review2.jpg",
+             review: "Kathryn's inflatables literally saved my life. I travelled by plane with one in my backpack, and when the plane spontaneously combusted, Kathryn's blow-up unicorn kept me afloat. Delta lost a customer that day and Kathryn gained one for life."
+         },
+         angelica: {
+             name: "Angelica Finning",
+             src: "assets/img/review3.jpg",
+             review: "I can't decide which is better, the inflatables Kathryn provides or her and her family's great smiles!!!"
+         }
      }
    }
 });

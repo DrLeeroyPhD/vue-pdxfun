@@ -7,8 +7,9 @@
     color: #5bc0de;
 }
 
-button.is-primary{
+button.is-primary, input.is-primary{
     background-color: #5bc0de;
+    color: white;
 }
 
 .is-secondary{
@@ -19,8 +20,42 @@ a{
     text-decoration: none;
 }
 
-input{
+input, button{
     font-family: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px transparent;
+}
+
+.section-head h1{
+    color: #5bc0de;
+    text-shadow: 0 0 2px black;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.section-head h2{
+    color: #95a5a6;
+    text-shadow: 0 0 1px black;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.section-head, .item{
+    text-align: center;
+}
+
+.centered{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+hr{
+    width: 80%;
+    border: none;
+    border-top: 1px solid #ccc;;
+    height: 1px;
 }
 
 /** Navigation **/
@@ -34,10 +69,6 @@ input{
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.nav-left{
-    
 }
 
 .nav-right{
@@ -135,10 +166,20 @@ h3.subtitle{
 
 /** Inventory **/
 
+.inventory-bg{
+    z-index: -20;
+    width: 100%;
+    position: fixed;
+    height: 150vh;
+    top: 0;
+}
+
 .inventory-content{
     display: flex;
     justify-content: space-around;
-    width:75%;
+    flex-wrap: wrap;
+    width: 75%;
+    max-width: 868px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 15px;
@@ -148,4 +189,87 @@ h3.subtitle{
     width: 180px;
     border-radius: 15px;
     box-shadow: 1px 1px 6px black;
+}
+
+.item h4{
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-size: 1.2em;
+}
+
+.item-button{
+    margin-bottom: 30px;
+    margin-top: -15px;
+    padding: 6px 12px;
+    line-height: 1.6;
+    transition: box-shadow ease-in-out 0.15s;
+}
+
+.item-button:hover{
+    box-shadow:0 3px 5px #777;
+    transition: box-shadow ease-in-out 0.15s;
+}
+
+.item-button:focus{
+    background-color: #39b3d7;
+}
+
+.item:last-child{
+    margin-bottom: 80px;
+}
+
+/** About **/
+
+#about{
+    display: block;
+    padding: 40px 0;
+    width: 100%;
+    background-color: #fec28e;
+}
+
+#about img{
+    max-height: 600px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+span.kat{
+    color:#b14ce0;
+    text-shadow: 1px 1px 2px #290838;
+}
+
+.about-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-content h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.2;
+}
+
+/** Reviews **/
+
+.reviews-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviews-content .review{
+    width: 30%;
+    text-align: center;
+}
+
+.review img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }

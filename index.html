@@ -19,16 +19,59 @@
         <hero></hero>
         
         <section id="inventory">
-          <div class="inventory-content">
+          <img src="assets/img/birthday.jpeg" class="inventory-bg parallax" data-rellax-speed="10"></img>
+          <div class="section-head left-slide">
+            <h1>PDX Fun is for Everyone!</h1>
+            <h2>Our party supplies are perfect for every party occasion.</h2>
+          </div>
+          <div class="inventory-content parallax bottom-slide" data-rellax-speed="-1">
             <div class="item" v-for="category in inventory">
               <img :src="category.src" />
               <h4>{{ category.title }}</h4>
+              <button class="item-button is-primary">Reserve Now!</button>
             </div>
           </div>
         </section>
         
         
         
+        <section id="about">
+          <div class="section-head left-slide">
+            <h1>About PDX Fun</h1>
+            <h2>We are a locally run, family operated business focused on having fun!</h2>
+          </div>
+          <div class="centered top-slide">
+            <img src="assets/img/fam.jpg" alt="Picture of PDX Fun's Owner, Kathryn, and her family."  />
+          </div>
+          <div class="about-content bottom-slide">
+            <h4><strong style="color:#f7334d">Hello!</strong> I’m <strong><span class="kat">Kathryn!</span></strong><br>
+    					I ran a nationally <em>roaming event production company</em> for over <strong>10</strong> years for clients such as <span style="color:#f54a99; text-shadow: 1px 1px 3px #faa9d2">Hello Kitty</span> and <span style="color:#004e90">Subaru</span>,
+    					we built <em>massive</em> campaigns and art happenings from scratch; it was exhausting!
+    						So I had this great idea – to stick closer to home, and launch an earthquake preparedness company. I came up with a structure and plan, and got ready to roll it out.
+    						…and then the 2016 election hit, and everyone was inundated with <span style="color:#664841">negativity</span> seemingly all of the time, and then we were all exhausted. So I had this other great idea! 
+    						To make whimsical never-before-seen party rental items with my <strong>amazing</strong> network of artists and creative vendors from around the world. That seemed like a way better plan.
+    						We look forward to working with <strong>you</strong>, and to continuously improving upon our inventory.<br>
+    						<em>Play Nice and Have a blast!</em><br><br>
+    						<strong><em>-Kathryn, and Max and Benjamin and Ham and Fu and Dave and Raisin</em></strong>
+    				</h4>
+          </div>
+        </section>
+        
+        
+        
+        <section id="reviews">
+          <div class="section-head left-slide">
+            <h1>Don't Just Take it From Us</h1>
+            <h2>See what our amazing neighbors have to say about PDX Fun!</h2>
+          </div>
+          <div class="reviews-content">
+            <div class="review" v-for="review in reviews">
+              <img :src="review.src" class="top-slide" />
+              <h4 class="bottom-slide">{{ review.name }}</h4>
+              <p class="bottom-slide">{{ review.review }}</p>
+            </div>
+          </div>
+        </section>
         
         
         
@@ -38,6 +81,7 @@
       <script type="text/javascript" src="https://unpkg.com/vue"></script>
       <script type="text/javascript" src="assets/js/rellax.min.js"></script>
       <script type="text/javascript" src="assets/js/index.js"></script>
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
       <script type="text/javascript" src="assets/js/scripts.js"></script>
     </body>
 </html>
