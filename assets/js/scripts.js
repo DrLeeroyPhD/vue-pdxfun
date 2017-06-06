@@ -15,3 +15,9 @@ sr.reveal('.top-slide', {
     origin: 'top',
     distance: '20%'
 });
+
+/***** Modal *****/
+var modal = document.getElementById("modal-container");
+var closeButton = document.getElementById("close-button");
+var openButton = document.querySelectorAll(".open-button");
+

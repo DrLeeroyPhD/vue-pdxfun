@@ -42,37 +42,42 @@ new Vue({
        wetdry: {
          title: "Slides Wet/Dry",
          src: "assets/img/wetdry.jpg",
-         description: ""
+         description: "",
+         name: "wetdry"
        },
        
        splash: {
          title: "Splash Pool",
          src: "assets/img/splash.jpg",
-         description: ""
+         description: "",
+         name: "splash"
        },
        
        disco: {
          title: "Disco Bounce House",
          src: "assets/img/disco.jpg",
-         description: ""
+         description: "",
+         name: "disco"
        },
        
        add: {
          title: "Add-Ons",
          src: "assets/img/pump.jpg",
-         description: ""
+         description: "",
+         name: "add"
        },
        
        photo: {
          title: "Photo Ops",
          src: "assets/img/photoop.jpg",
-         description: ""
+         name: "photo"
        },
        
        deliver: {
          title: "See Where We Deliver",
          src: "assets/img/portland_map.jpg",
-         description: "We can deliver further for an additional fee."
+         description: "We can deliver further for an additional fee.",
+         name: "deliver"
        }
      },
      reviews: {
