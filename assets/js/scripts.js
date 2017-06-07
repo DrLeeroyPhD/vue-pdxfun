@@ -15,3 +15,8 @@ sr.reveal('.top-slide', {
     origin: 'top',
     distance: '20%'
 });
+
+/***** Copyright Year *****/
+var dt = new Date();
+var copy = document.getElementById('copy');
+copy.innerHTML = dt.getFullYear();

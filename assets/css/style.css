@@ -274,3 +274,8 @@ span.kat{
     margin-right: auto;
     border-radius: 50%;
 }
+
+/** Footer **/
+.footer{
+    text-align: center;
+}
