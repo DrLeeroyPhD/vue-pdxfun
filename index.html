@@ -24,8 +24,8 @@
             <h1>PDX Fun is for Everyone!</h1>
             <h2>Our party supplies are perfect for every party occasion.</h2>
           </div>
-          <div class="inventory-content parallax bottom-slide" data-rellax-speed="-1">
-            <div class="item" v-for="category in inventory">
+          <div class="inventory-content">
+            <div class="item inflate" v-for="category in inventory">
               <img :src="category.src" />
               <h4>{{ category.title }}</h4>
               <button class="item-button is-primary modal-open" :name="category.name" onclick="openModal()">Reserve Now!</button>

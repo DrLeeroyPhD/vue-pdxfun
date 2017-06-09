@@ -18,7 +18,7 @@ Vue.component('hero', {
   template:
   `
     <section class="hero">
-      <div class="hero-content parallax" data-rellax-speed="-6">
+      <div class="hero-content parallax" data-rellax-speed="3">
         <h1 class="title">
           Pump Up The Fun!
         </h1>

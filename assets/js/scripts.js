@@ -26,6 +26,14 @@ sr.reveal('.spin', {
     rotate: { x: 180, y: 180, z: 0 },
     duration: '800'
 });
+sr.reveal('.inflate', {
+    origin: 'bottom',
+    distance: '0px',
+    duration: '1000',
+    opacity: '0.5',
+    scale: '0',
+    easing: 'cubic-bezier(0.785, 0.135, 0.15, 0.86)'
+});
 
 /***** Disable Scrolling During Modal *****/
 var body = document.querySelector("body");
