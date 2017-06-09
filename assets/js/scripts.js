@@ -16,8 +16,16 @@ sr.reveal('.top-slide', {
     distance: '20%'
 });
 
-/***** Modal *****/
+/***** Disable Scrolling During Modal *****/
+var body = document.querySelector("body");
 var modal = document.getElementById("modal-container");
-var closeButton = document.getElementById("close-button");
-var openButton = document.querySelectorAll(".open-button");
 
+function openModal(){
+    body.className += " no-scroll";
+    modal.classList.remove("closed");
+}
+
+function closeModal(){
+    body.classList.remove("no-scroll");
+    modal.className += " closed";
+}

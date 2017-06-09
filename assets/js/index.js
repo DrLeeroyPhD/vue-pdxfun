@@ -1,7 +1,7 @@
 Vue.component('navigation', {
   template: 
   `
-    <nav class="nav" id="home">
+    <nav class="nav">
         <a href="#home" class="brand-img nav-left">
           <img src="assets/img/pdxfun_logo.png" />
         </a>
@@ -32,6 +32,34 @@ Vue.component('hero', {
       </div>
     </section>
   `
+});
+
+Vue.component('modal', {
+    template:
+    `
+        <div id="modal-container" class="closed">
+          <div class="modal-overlay" id="modal-overlay" onclick="closeModal()"></div>
+  
+          <div class="modal" id="modal">
+            <button class="close-button" id="close-button" onclick="closeModal()">X</button>
+            <div class="modal-guts">
+                <div class="modal-header">
+                  <h1>Modal Example</h1>
+                </div>
+                <hr>
+                <div class="modal-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt semper ultricies.
+                        Duis luctus, ligula id gravida finibus, metus mi laoreet erat, nec bibendum dolor orci vitae nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+              
+            </div>
+          </div>
+        </div>
+    `
 });
 
 
