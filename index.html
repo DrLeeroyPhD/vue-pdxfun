@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
       <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     </head>
-    <body>
+    <body id="home">
       <div id="app">
         <navigation></navigation>
         <hero></hero>
@@ -28,7 +28,7 @@
             <div class="item" v-for="category in inventory">
               <img :src="category.src" />
               <h4>{{ category.title }}</h4>
-              <button class="item-button is-primary">Reserve Now!</button>
+              <button class="item-button is-primary modal-open" :name="category.name" onclick="openModal()">Reserve Now!</button>
             </div>
           </div>
         </section>
@@ -74,11 +74,20 @@
         </section>
         
         
+        
+        <modal></modal>
+        
+        
+        
+        
+        
+
         <section id="footer" class="footer">
           <hr>
           &copy; PDX Fun <span id="copy"></span>
           <hr>
         </section>
+
         
       </div>
       
