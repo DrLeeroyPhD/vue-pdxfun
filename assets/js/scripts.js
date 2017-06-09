@@ -29,3 +29,8 @@ function closeModal(){
     body.classList.remove("no-scroll");
     modal.className += " closed";
 }
+
+/***** Copyright Year *****/
+var dt = new Date();
+var copy = document.getElementById('copy');
+copy.innerHTML = dt.getFullYear();
