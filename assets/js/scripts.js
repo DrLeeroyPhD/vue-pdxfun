@@ -15,6 +15,17 @@ sr.reveal('.top-slide', {
     origin: 'top',
     distance: '20%'
 });
+sr.reveal('.slow-slide', {
+    origin: 'bottom',
+    distance: '10px',
+    duration: '1000',
+    opacity: '0',
+    scale: '0.8'
+});
+sr.reveal('.spin', {
+    rotate: { x: 180, y: 180, z: 0 },
+    duration: '800'
+});
 
 /***** Disable Scrolling During Modal *****/
 var body = document.querySelector("body");

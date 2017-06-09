@@ -66,7 +66,7 @@
           </div>
           <div class="reviews-content">
             <div class="review" v-for="review in reviews">
-              <img :src="review.src" class="top-slide" />
+              <img :src="review.src" class="top-slide spin" />
               <h4 class="bottom-slide">{{ review.name }}</h4>
               <p class="bottom-slide">{{ review.review }}</p>
             </div>
@@ -82,7 +82,7 @@
         
         
 
-        <section id="footer" class="footer">
+        <section id="footer" class="footer slow-slide">
           <hr>
           &copy; PDX Fun <span id="copy"></span>
           <hr>
