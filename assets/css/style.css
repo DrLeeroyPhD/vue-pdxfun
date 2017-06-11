@@ -51,7 +51,6 @@ input, button{
 
 .centered{
     display: flex;
-    width: 100%;
     justify-content: space-around;
 }
 
@@ -341,11 +340,18 @@ h3.subtitle{
 }
 
 #about img{
-    max-height: 600px;
-    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
+    border-radius: 15px;
+    box-shadow: 0 0 8px black;
+    max-height: 60vh;
+}
+
+.fam{
+    max-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 span.kat{
@@ -390,4 +396,19 @@ span.kat{
 /** Footer **/
 .footer{
     text-align: center;
+}
+
+/***** MEDIA QUERIES *****/
+
+
+@media only screen and (max-width: 680px) {
+    .nav-item {
+        font-size: 1em;
+        margin-left: 8px;
+        padding: 5px;
+    }
+    
+    .review img{
+        width: 100px;
+    }
 }
