@@ -81,42 +81,67 @@ new Vue({
        wetdry: {
          title: "Slides Wet/Dry",
          src: "assets/img/wetdry.jpg",
-         description: "",
-         name: "wetdry"
+         description: `
+            Our first visionary item, can be used as a dry slide or hooked up to a standard
+            garden hose to add water misting to the archway! Comes with a built in bubble machine, because it’s magical.
+            22.3 feet wide by 15.5 feet tall
+         `,
+         name: "wetdry",
+         button: "Reserve Now!"
        },
        
        splash: {
          title: "Splash Pool",
          src: "assets/img/splash.jpg",
-         description: "",
-         name: "splash"
+         description: `
+            This 15 by 15 pool wading pool creates an easy, and instant, backyard party!.... or pair it with our bounce
+            house, or a slide, to plus up the fun!
+         `,
+         name: "splash",
+         button: "Reserve Now!"
        },
        
        disco: {
          title: "Disco Bounce House",
          src: "assets/img/disco.jpg",
-         description: "",
-         name: "disco"
+         description: `
+            Built with height clearance for all ages, this bounce house includes a blue tooth speaker
+            system and responsive LED disco ball, that reacts to your soundtrack of choice, just plug and play.
+            19 Feet Wide by 15 feet tall, without Theme Topper (rented separately)
+         `,
+         name: "disco",
+         button: "Reserve Now!"
        },
        
        add: {
          title: "Add-Ons",
          src: "assets/img/pump.jpg",
-         description: "",
-         name: "add"
+         description: `
+            All rentals come with a blower unit and cords for respective display and sound elements. Please note how far
+            you are from a standard (120v) plug on the rental form, and we will discuss your layout by phone to ensure we
+            include everything needed for your rental such as Quiet Generators, Electrical Cord, or a Super long garden hose.
+         `,
+         name: "add",
+         button: "Reserve Now!"
        },
        
        photo: {
          title: "Photo Ops",
          src: "assets/img/photoop.jpg",
-         name: "photo"
+         description: `
+            Created by our talented local artist friends, our super cute Instagram ready backdrops bring extra
+            sparkle to your uniquely Portlandesque event.
+         `,
+         name: "photo",
+         button: "Reserve Now!"
        },
        
        deliver: {
          title: "See Where We Deliver",
          src: "assets/img/portland_map.jpg",
          description: "We can deliver further for an additional fee.",
-         name: "deliver"
+         name: "deliver",
+         button: "Check it Out!"
        }
      },
      reviews: {
