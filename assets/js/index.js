@@ -19,7 +19,7 @@ Vue.component('hero', {
   `
     <section class="hero">
     
-        <div class="homepage-hero-module">
+        <div class="homepage-hero-module parallax" data-rellax-speed="3">
           <div class="video-container">
             <div class="filter"></div>
             <video autoplay loop class="fillWidth" poster="assets/img/Coverr-flowers.mp4">
@@ -29,7 +29,7 @@ Vue.component('hero', {
           </div>
         </div>
     
-      <div class="hero-content parallax" data-rellax-speed="3">
+      <div class="hero-content parallax" data-rellax-speed="-2">
         <h1 class="title">
           Pump Up The Fun!
         </h1>
