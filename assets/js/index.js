@@ -18,6 +18,17 @@ Vue.component('hero', {
   template:
   `
     <section class="hero">
+    
+        <div class="homepage-hero-module">
+          <div class="video-container">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth" poster="assets/img/Coverr-flowers.mp4">
+              <source src="assets/img/Coverr-flowers.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              <source src="assets/img/Coverr-flowers.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+          </div>
+        </div>
+    
       <div class="hero-content parallax" data-rellax-speed="3">
         <h1 class="title">
           Pump Up The Fun!
