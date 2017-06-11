@@ -2,13 +2,13 @@ Vue.component('navigation', {
   template: 
   `
     <nav class="nav">
-        <a href="#home" class="brand-img nav-left">
+        <a data-scroll href="#home" class="brand-img nav-left">
           <img src="assets/img/pdxfun_logo.png" />
         </a>
         <div class="nav-right">
-          <a href="#inventory" class="nav-item">Inventory</a>
-          <a href="#about" class="nav-item">About</a>
-          <a href="#reviews" class="nav-item">Reviews</a>
+          <a data-scroll href="#inventory" class="nav-item">Inventory</a>
+          <a data-scroll href="#about" class="nav-item">About</a>
+          <a data-scroll href="#reviews" class="nav-item">Reviews</a>
         </div>
       </nav>
   `

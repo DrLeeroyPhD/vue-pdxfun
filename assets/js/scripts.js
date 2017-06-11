@@ -1,8 +1,17 @@
 /***** Init Rellax Parallax *****/
 var rellax = new Rellax('.parallax');
 
-/***** Scroll Reveal Animations *****/
+/***** Init Smooth Scrolling *****/
+smoothScroll.init({
+    offset: 80,
+    easing: 'easeInOutCubic'
+    
+});
+
+/***** Init Scroll Reveal *****/
 window.sr = ScrollReveal();
+
+/***** Scroll Reveal Animations *****/
 sr.reveal('.left-slide', {
     origin: 'left',
     distance: '20%'
