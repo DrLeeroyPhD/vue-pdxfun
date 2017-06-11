@@ -120,10 +120,10 @@ new Vue({
        }
      },
      reviews: {
-         michael: {
-             name: "Michael Robson",
+         danni: {
+             name: "Danni",
              src: "assets/img/review1.jpg",
-             review: "Look at those inflatables, I mean, need I say more?"
+             review: "If anyone can rock a Portland-esque custom inflatables business, it's Kathryn. I believe in this vision!"
          },
          pete: {
              name: "Pete Ford",
