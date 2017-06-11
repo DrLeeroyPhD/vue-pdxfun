@@ -35,6 +35,7 @@ sr.reveal('.inflate', {
     easing: 'cubic-bezier(0.785, 0.135, 0.15, 0.86)'
 });
 
+
 /***** Disable Scrolling During Modal *****/
 var body = document.querySelector("body");
 var modal = document.getElementById("modal-container");
