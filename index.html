@@ -31,9 +31,14 @@
           </div>
           <div class="inventory-content">
             <div class="item inflate" v-for="category in inventory">
-              <img :src="category.src" />
+              <figure>
+                <img :src="category.src" />
+                <figcaption>
+                  <p>{{ category.description }}</p>
+                </figcaption>
+              </figure>
               <h4>{{ category.title }}</h4>
-              <button class="item-button is-primary modal-open" :name="category.name" onclick="openModal()">Reserve Now!</button>
+              <button class="item-button is-primary modal-open" :name="category.name" onclick="openModal()">{{ category.button }}</button>
             </div>
           </div>
         </section>
