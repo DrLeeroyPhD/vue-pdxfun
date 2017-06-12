@@ -148,17 +148,17 @@ new Vue({
          danni: {
              name: "Danni",
              src: "assets/img/review1.jpg",
-             review: "If anyone can rock a Portland-esque custom inflatables business, it's Kathryn. I believe in this vision!"
+             review: "If anyone can rock a truly Portland-style party inflatables team, it's Kathryn. I believe in this vision of fun; they're the tops!"
          },
          pete: {
              name: "Pete Ford",
              src: "assets/img/review2.jpg",
-             review: "Kathryn's inflatables literally saved my life. I travelled by plane with one in my backpack, and when the plane spontaneously combusted, Kathryn's blow-up unicorn kept me afloat. Delta lost a customer that day and Kathryn gained one for life."
+             review: "Kathryn's inflatables literally saved my life! I travelled by plane with one in my backpack, and when the plane spontaneously combusted, Kathryn's blow-up unicorn kept me afloat. Delta lost a customer that day and Kathryn gained one for life."
          },
          angelica: {
              name: "Angelica Finning",
              src: "assets/img/review3.jpg",
-             review: "I can't decide which is better, the inflatables Kathryn provides or her and her family's great smiles!!!"
+             review: "I can't decide which is better, PDXFun's unique inflatables or the genuinely talented and fun-loving people that run things!"
          }
      }
    }
