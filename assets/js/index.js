@@ -55,13 +55,11 @@ Vue.component('modal', {
             <button class="close-button" id="close-button" onclick="closeModal()">X</button>
             <div class="modal-guts">
                 <div class="modal-header">
-                  <h1>Modal Example</h1>
+                  <h1>Where We Deliver</h1>
                 </div>
                 <hr>
-                <div class="modal-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt semper ultricies.
-                        Duis luctus, ligula id gravida finibus, metus mi laoreet erat, nec bibendum dolor orci vitae nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                    </p>
+                <div class="modal-content centered">
+                    <img src="assets/img/portland_map.jpg" class="modal-image" />
                 </div>
                 <div class="modal-footer">
                     
@@ -87,42 +85,58 @@ new Vue({
             22.3 feet wide by 15.5 feet tall
          `,
          name: "wetdry",
-         button: "Reserve Now!"
+         button: "Reserve Now!",
+         link: "http://pdx-fun.genbook.com"
        },
        
        splash: {
          title: "Splash Pool",
          src: "assets/img/splash.jpg",
          description: `
-            This 15 by 15 pool wading pool creates an easy, and instant, backyard party!.... or pair it with our bounce
+            This 15' x 15' pool wading pool creates an easy, and instant, backyard party!.... or pair it with our bounce
             house, or a slide, to plus up the fun!
          `,
          name: "splash",
-         button: "Reserve Now!"
+         button: "Reserve Now!",
+         link: "http://pdx-fun.genbook.com"
        },
        
        disco: {
          title: "Disco Bounce House",
          src: "assets/img/disco.jpg",
          description: `
-            Built with height clearance for all ages, this bounce house includes a blue tooth speaker
-            system and responsive LED disco ball, that reacts to your soundtrack of choice, just plug and play.
-            19 Feet Wide by 15 feet tall, without Theme Topper (rented separately)
+            Built with height clearance for all ages, this bounce house includes a bluetooth-enabled stereo
+            system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.
+            19' x 15' before adding a Themed Topper (available here) 
+
          `,
          name: "disco",
-         button: "Reserve Now!"
+         button: "Reserve Now!",
+         link: "http://pdx-fun.genbook.com"
        },
-       
+       toppers:{
+           title: "Themed Toppers",
+           src: "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/44222_XXX_v2.tif&wid=480&cvt=jpeg",
+           description:`
+                <strong>Birthday Crown</strong> – adds super fun height and birthday theme to our Disco Ball or PDX Party slide <br/><br/>
+                <strong>Party POW</strong> – adds flashing lights and height to your rental of Disco Ball or PDX Party slide, great for
+                nighttime events.
+            `,
+           name: "toppers",
+           button: "Coming Soon!",
+           link: "http://pdx-fun.genbook.com"
+       },
        add: {
          title: "Add-Ons",
          src: "assets/img/pump.jpg",
          description: `
-            All rentals come with a blower unit and cords for respective display and sound elements. Please note how far
-            you are from a standard (120v) plug on the rental form, and we will discuss your layout by phone to ensure we
-            include everything needed for your rental such as Quiet Generators, Electrical Cord, or a Super long garden hose.
+            All rentals come with a blower unit and cords for associated display and sound elements. Please consider your event's distance from a standard (120v) plug. 
+            <strong>Be sure</strong> to include it on the Rental Form <a href="assets/docs/final_release_waiver.docx" target="_blank">HERE</a> so we can more accurately plan your layout, and ensure 
+            that everything you need is included. (eg. Quiet Generators, Electrical Cord, or an extra-long water hose, etc.)
          `,
          name: "add",
-         button: "Reserve Now!"
+         button: "Reserve Now!",
+         link: "http://pdx-fun.genbook.com"
        },
        
        photo: {
@@ -133,7 +147,8 @@ new Vue({
             sparkle to your uniquely Portlandesque event.
          `,
          name: "photo",
-         button: "Reserve Now!"
+         button: "Reserve Now!",
+         link: "http://pdx-fun.genbook.com"
        },
        
        deliver: {
@@ -141,7 +156,8 @@ new Vue({
          src: "assets/img/portland_map.jpg",
          description: "We can deliver further for an additional fee.",
          name: "deliver",
-         button: "Check it Out!"
+         button: "Check it Out!",
+         function: "openModal()"
        }
      },
      reviews: {
@@ -150,15 +166,20 @@ new Vue({
              src: "assets/img/review1.jpg",
              review: "If anyone can rock a truly Portland-style party inflatables team, it's Kathryn. I believe in this vision of fun; they're the tops!"
          },
-         pete: {
-             name: "Pete Ford",
+         awesome: {
+             name: "Awesomesauce McGee",
              src: "assets/img/review2.jpg",
-             review: "Kathryn's inflatables literally saved my life! I travelled by plane with one in my backpack, and when the plane spontaneously combusted, Kathryn's blow-up unicorn kept me afloat. Delta lost a customer that day and Kathryn gained one for life."
+             review: "An open part for kids to splash and play in and there's a slide! That's an awesome mash-up of bouncy house and water park!"
          },
-         angelica: {
-             name: "Angelica Finning",
+         unicorn: {
+             name: "The Unicorn Princess",
              src: "assets/img/review3.jpg",
-             review: "I can't decide which is better, PDXFun's unique inflatables or the genuinely talented and fun-loving people that run things!"
+             review: "Unicorns are just the best! They are magic, so bubbles make sense. Lots of bubbles!"
+         },
+         lord: {
+             name: "Lord Dancypants",
+             src: "assets/img/review4.jpg",
+             review: "(translated from Latin) I'm almost old enough to go on these, and I do love dance parties!"
          }
      }
    }

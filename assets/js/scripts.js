@@ -50,8 +50,16 @@ var body = document.querySelector("body");
 var modal = document.getElementById("modal-container");
 
 function openModal(){
-    body.className += " no-scroll";
-    modal.classList.remove("closed");
+    // Finds Viewport Width to see if img/modal will fit (temp fix)
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if(w <= 700){
+        // If doesn't fit, it opens the image in a new tab
+        var win = window.open("assets/img/portland_map.jpg", '_blank');
+        win.focus();
+    } else{
+        body.className += " no-scroll";
+        modal.classList.remove("closed");
+    }
 }
 
 function closeModal(){
@@ -63,3 +71,6 @@ function closeModal(){
 var dt = new Date();
 var copy = document.getElementById('copy');
 copy.innerHTML = dt.getFullYear();
+
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+

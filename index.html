@@ -34,11 +34,11 @@
               <figure>
                 <img :src="category.src" />
                 <figcaption>
-                  <p>{{ category.description }}</p>
+                  <p v-html="category.description"></p>
                 </figcaption>
               </figure>
               <h4>{{ category.title }}</h4>
-              <button class="item-button is-primary modal-open" :name="category.name" onclick="openModal()">{{ category.button }}</button>
+              <a :href="category.link" target="_blank"><button class="item-button is-primary modal-open" :name="category.name" :onclick="category.function">{{ category.button }}</button></a>
             </div>
           </div>
         </section>
@@ -92,9 +92,9 @@
         
         
 
-        <section id="footer" class="footer slow-slide">
+        <section id="footer" class="footer">
           <hr>
-          &copy; PDX Fun <span id="copy"></span>
+          <p class="slow-slide">&copy; PDX Fun <span id="copy"></span></p>
           <hr>
         </section>
 
