@@ -7,6 +7,10 @@ body.no-scroll{
     overflow: hidden;
 }
 
+[v-cloak]{
+    display: none;
+}
+
 .is-primary{
     color: #5bc0de;
 }

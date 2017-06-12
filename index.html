@@ -14,6 +14,10 @@
       <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     </head>
     <body id="home">
+
+      <!-- Vue moved to beginning to hide data-binding brackets until page is loaded -->
+      <script type="text/javascript" src="https://unpkg.com/vue"></script>
+      
       <div id="app">
         <navigation></navigation>
         
@@ -37,15 +41,15 @@
                   <p v-html="category.description"></p>
                 </figcaption>
               </figure>
-              <h4>{{ category.title }}</h4>
-              <a :href="category.link" target="_blank"><button class="item-button is-primary modal-open" :name="category.name" :onclick="category.function">{{ category.button }}</button></a>
+              <h4 v-cloak>{{ category.title }}</h4>
+              <a :href="category.link" target="_blank"><button class="item-button is-primary modal-open" :name="category.name" :onclick="category.function" v-cloak>{{ category.button }}</button></a>
             </div>
           </div>
         </section>
         
         
         
-        <section id="about">
+        <section id="about" v-cloak>
           <div class="section-head left-slide">
             <h1>About PDX Fun</h1>
             <h2>A locally-owned and family-operated with a focus on fun!</h2>
@@ -77,15 +81,15 @@
           <div class="reviews-content">
             <div class="review" v-for="review in reviews">
               <img :src="review.src" class="top-slide spin" />
-              <h4 class="bottom-slide">{{ review.name }}</h4>
-              <p class="bottom-slide">{{ review.review }}</p>
+              <h4 class="bottom-slide" v-cloak>{{ review.name }}</h4>
+              <p class="bottom-slide" v-cloak>{{ review.review }}</p>
             </div>
           </div>
         </section>
         
         
         
-        <modal></modal>
+        <modal v-cloak></modal>
         
         
         
@@ -101,7 +105,6 @@
         
       </div>
       
-      <script type="text/javascript" src="https://unpkg.com/vue"></script>
       <script type="text/javascript" src="assets/js/rellax.min.js"></script>
       <script type="text/javascript" src="assets/js/index.js"></script>
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
