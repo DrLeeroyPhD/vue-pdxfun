@@ -177,7 +177,7 @@ new Vue({
              review: "Unicorns are just the best! They are magic, so bubbles make sense. Lots of bubbles!"
          },
          lord: {
-             name: "Lord Dancypants",
+             name: "Lady Dancypants",
              src: "assets/img/review4.jpg",
              review: "(translated from Latin) I'm almost old enough to go on these, and I do love dance parties!"
          }

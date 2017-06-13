@@ -422,11 +422,6 @@ figure:focus figcaption,figure.focus figcaption {
     margin: 0 auto;
 }
 
-span.kat{
-    color:#b14ce0;
-    text-shadow: 1px 1px 2px #290838;
-}
-
 .about-content{
     width: 80%;
     margin-left: auto;
@@ -437,7 +432,7 @@ span.kat{
 }
 
 .about-content h4{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #777;
     line-height: 1.2;
