@@ -8,7 +8,7 @@ Vue.component('modal', {
             <button class="close-button" id="close-button" onclick="closeModal()">X</button>
             <div class="modal-guts">
                 <div class="modal-header">
-                  <h1>Where We Deliver</h1>
+                  <h1 style="font-size: 1.2em">We deliver throughout the Portland metro area</h1>
                 </div>
                 <hr>
                 <div class="modal-content centered">
@@ -33,9 +33,9 @@ new Vue({
          title: "Slides Wet/Dry",
          src: "assets/img/wetdry.jpg",
          description: `
-            Our first visionary item, can be used as a dry slide or hooked up to a standard
-            garden hose to add water misting to the archway! Comes with a built in bubble machine, because it’s magical.
-            22.3 feet wide by 15.5 feet tall
+            Our premiere visionary item, the Unicorn Mountain Slide can be a bouncy waterless slide or simply hooked up to a standard
+            garden hose to add water misting from the archway on down the slide! Comes with a built-in bubble machine - because it's magical!
+            22.3' wide x 15.5' tall
          `,
          name: "wetdry",
          button: "Reserve Now!",
@@ -46,8 +46,7 @@ new Vue({
          title: "Splash Pool",
          src: "assets/img/splash.jpg",
          description: `
-            This 15' x 15' pool wading pool creates an easy, and instant, backyard party!.... or pair it with our bounce
-            house, or a slide, to plus up the fun!
+            This 15' x 15' Splash Pool is an easy and almost instant party in the yard!... Or, pair it with any of our other inflatables to pump up the fun even further!
          `,
          name: "splash",
          button: "Reserve Now!",
@@ -55,12 +54,14 @@ new Vue({
        },
        
        disco: {
-         title: "Disco Bounce House",
+         title: "Interstellar Dance House",
          src: "assets/img/disco.jpg",
          description: `
-            Built with height clearance for all ages, this bounce house includes a bluetooth-enabled stereo
+            Built with height clearance for all ages, this bouncy Interstellar Dance House includes a bluetooth-enabled stereo
             system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.
-            19' x 15' before adding a Themed Topper (available here) 
+            19' wide x 15' tall before adding a Themed Topper of your choice! (available here) 
+
+// *******************************************  LINK TO TOPPERS NEEDED HERE ^
 
          `,
          name: "disco",
@@ -71,9 +72,9 @@ new Vue({
            title: "Themed Toppers",
            src: "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/44222_XXX_v2.tif&wid=480&cvt=jpeg",
            description:`
-                <strong>Birthday Crown</strong> – adds super fun height and birthday theme to our Disco Ball or PDX Party slide <br/><br/>
-                <strong>Party POW</strong> – adds flashing lights and height to your rental of Disco Ball or PDX Party slide, great for
-                nighttime events.
+                <strong>Birthday Crown</strong> – make any day esepcially regal by adding it to either our Interstellar Dance House or PDX Party slide <br/><br/>
+                <strong>Party POW</strong> – Bring the party started right with the programmable LED lights and super-fun height to the Interstellar Dance House or PDX Party slide - perfect for
+                nighttime events!
             `,
            name: "toppers",
            button: "Coming Soon!",
@@ -96,8 +97,8 @@ new Vue({
          title: "Photo Ops",
          src: "assets/img/photoop.jpg",
          description: `
-            Created by our talented local artist friends, our super cute Instagram ready backdrops bring extra
-            sparkle to your uniquely Portlandesque event.
+            Designed by local Portland artists specifically for PDXFun.me, our super awesome Instagram-ready backdrops bring that extra
+            pizazz to your party!
          `,
          name: "photo",
          button: "Reserve Now!",
@@ -107,7 +108,7 @@ new Vue({
        deliver: {
          title: "See Where We Deliver",
          src: "assets/img/portland_map.jpg",
-         description: "We can deliver further for an additional fee.",
+         description: "Just about anywhere in the Portland Metro area, and we're happy to discuss delivering a bit further, of course. (additional fees may apply)",
          name: "deliver",
          button: "Check it Out!",
          function: "openModal()"
