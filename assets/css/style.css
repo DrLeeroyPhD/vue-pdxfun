@@ -488,4 +488,12 @@ figure:focus figcaption,figure.focus figcaption {
     .review img{
         width: 100px;
     }
+    
+    .cta-email{
+        width: 200px;
+        font-size: .8em;
+    }
+    .cta-submit{
+        font-size: .8em;
+    }
 }

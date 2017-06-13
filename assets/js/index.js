@@ -22,7 +22,7 @@ Vue.component('hero', {
         <div class="homepage-hero-module parallax" data-rellax-speed="3">
           <div class="video-container">
             <div class="filter"></div>
-            <video autoplay loop class="fillWidth" poster="assets/img/Coverr-flowers.mp4">
+            <video autoplay loop class="fillWidth" poster="assets/img/Coverr-flowers.jpg">
               <source src="assets/img/Coverr-flowers.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
               <source src="assets/img/Coverr-flowers.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
             </video>
