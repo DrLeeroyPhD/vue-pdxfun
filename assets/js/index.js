@@ -29,45 +29,57 @@ new Vue({
    el: "#app",
    data: {
      inventory: {
-       wetdry: {
-         title: "Slides Wet/Dry",
-         src: "assets/img/wetdry.jpg",
+       unicorn: {
+         title: "Unicorn Bubble Slide",
+         src: "assets/img/unicorn_bubble_slide.png",
          description: `
             Our premiere visionary item, the Unicorn Mountain Slide can be a bouncy waterless slide or simply hooked up to a standard
             garden hose to add water misting from the archway on down the slide! Comes with a built-in bubble machine - because it's magical!
             22.3' wide x 15.5' tall
          `,
-         name: "wetdry",
+         name: "unicorn",
          button: "Reserve Now!",
-         link: "http://pdx-fun.genbook.com"
+         link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553778441"
+       },
+       
+        mondo: {
+            title: "PDX Mondo Slide",
+            src: "assets/img/pdx_mondo_slide.png",
+            description: `
+                Great for higher volume parties, or night time events, this massive slide has
+                programmable detachable LED lights and can be use wet or dry; a standard garden hose adds water misting
+                from each of the archways. Pair with our 15 by 15 foot pool to create more splashdown effect!
+            `,
+            name: "mondo",
+            button: "Reserve Now!",
+            link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553792288"
        },
        
        splash: {
          title: "Splash Pool",
-         src: "assets/img/splash.jpg",
+         src: "assets/img/splash_pool.png",
          description: `
             This 15' x 15' Splash Pool is an easy and almost instant party in the yard!... Or, pair it with any of our other inflatables to pump up the fun even further!
          `,
          name: "splash",
          button: "Reserve Now!",
-         link: "http://pdx-fun.genbook.com"
+         link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553355350"
        },
        
        disco: {
          title: "Interstellar Dance House",
-         src: "assets/img/disco.jpg",
+         src: "assets/img/intersteller_dance_house.png",
          description: `
             Built with height clearance for all ages, this bouncy Interstellar Dance House includes a bluetooth-enabled stereo
             system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.
-            19' wide x 15' tall before adding a Themed Topper of your choice! (available here) 
-
-// *******************************************  LINK TO TOPPERS NEEDED HERE ^
-
+            19' wide x 15' tall before adding a Themed Topper of your choice! <a href="https://www.genbook.com/bookings/slot/reservation/30396544?&category=2553812765" target="_blank">Available here!</a>
          `,
          name: "disco",
          button: "Reserve Now!",
          link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553277305"
        },
+       // Toppers hidden until image is available
+       /*
        toppers:{
            title: "Themed Toppers",
            src: "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/44222_XXX_v2.tif&wid=480&cvt=jpeg",
@@ -80,6 +92,7 @@ new Vue({
            button: "Coming Soon!",
            link: "http://pdx-fun.genbook.com"
        },
+       */
        add: {
          title: "Add-Ons",
          src: "assets/img/pump.jpg",
@@ -90,7 +103,7 @@ new Vue({
          `,
          name: "add",
          button: "Reserve Now!",
-         link: "http://pdx-fun.genbook.com"
+         link: "https://www.genbook.com/bookings/slot/reservation/30396544?&category=2553830427"
        },
        
        photo: {
