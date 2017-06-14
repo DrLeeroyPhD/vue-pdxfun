@@ -31,7 +31,7 @@ new Vue({
      inventory: {
        unicorn: {
          title: "Unicorn Bubble Slide",
-         src: "assets/img/unicorn_bubble_slide.png",
+         src: "assets/img/unicorn_bubble_slide.jpg",
          description: `
             Our premiere visionary item, the Unicorn Mountain Slide can be a bouncy waterless slide or simply hooked up to a standard
             garden hose to add water misting from the archway on down the slide! Comes with a built-in bubble machine - because it's magical!
@@ -44,7 +44,7 @@ new Vue({
        
         mondo: {
             title: "PDX Mondo Slide",
-            src: "assets/img/pdx_mondo_slide.png",
+            src: "assets/img/pdx_mondo_slide.jpg",
             description: `
                 Great for higher volume parties, or night time events, this massive slide has
                 programmable detachable LED lights and can be use wet or dry; a standard garden hose adds water misting
@@ -57,7 +57,7 @@ new Vue({
        
        splash: {
          title: "Splash Pool",
-         src: "assets/img/splash_pool.png",
+         src: "assets/img/splash_pool.jpg",
          description: `
             This 15' x 15' Splash Pool is an easy and almost instant party in the yard!... Or, pair it with any of our other inflatables to pump up the fun even further!
          `,
@@ -68,7 +68,7 @@ new Vue({
        
        disco: {
          title: "Interstellar Dance House",
-         src: "assets/img/intersteller_dance_house.png",
+         src: "assets/img/interstellar_dance_house.jpg",
          description: `
             Built with height clearance for all ages, this bouncy Interstellar Dance House includes a bluetooth-enabled stereo
             system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.
@@ -120,7 +120,7 @@ new Vue({
        
        deliver: {
          title: "See Where We Deliver",
-         src: "assets/img/portland_map.jpg",
+         src: "assets/img/portland_map_cover.jpg",
          description: "Just about anywhere in the Portland Metro area, and we're happy to discuss delivering a bit further, of course. (additional fees may apply)",
          name: "deliver",
          button: "Check it Out!",
