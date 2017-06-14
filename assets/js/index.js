@@ -66,7 +66,7 @@ new Vue({
          `,
          name: "disco",
          button: "Reserve Now!",
-         link: "http://pdx-fun.genbook.com"
+         link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553277305"
        },
        toppers:{
            title: "Themed Toppers",
