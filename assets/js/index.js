@@ -34,7 +34,7 @@ new Vue({
          src: "assets/img/unicorn_bubble_slide.jpg",
          description: `
             Our premiere visionary item, the Unicorn Mountain Slide can be a bouncy waterless slide or simply hooked up to a standard
-            garden hose to add water misting from the archway on down the slide! Comes with a built-in bubble machine - because it's magical!
+            garden hose to add water misting from the archway on down the slide! Comes with a built-in bubble machine - because it's magical!<br>
             22.3' wide x 15.5' tall
          `,
          name: "unicorn",
@@ -51,7 +51,7 @@ new Vue({
                 from each of the archways. Pair with our 15 by 15 foot pool to create more splashdown effect!
             `,
             name: "mondo",
-            button: "Reserve Now!",
+            button: "Coming Soon!",
             link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553792288"
        },
        
@@ -62,7 +62,7 @@ new Vue({
             This 15' x 15' Splash Pool is an easy and almost instant party in the yard!... Or, pair it with any of our other inflatables to pump up the fun even further!
          `,
          name: "splash",
-         button: "Reserve Now!",
+         button: "Coming Soon!",
          link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553355350"
        },
        
@@ -71,7 +71,7 @@ new Vue({
          src: "assets/img/interstellar_dance_house.jpg",
          description: `
             Built with height clearance for all ages, this bouncy Interstellar Dance House includes a bluetooth-enabled stereo
-            system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.
+            system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.<br>
             19' wide x 15' tall before adding a Themed Topper of your choice! <a href="https://www.genbook.com/bookings/slot/reservation/30396544?&category=2553812765" target="_blank">Available here!</a>
          `,
          name: "disco",
@@ -84,7 +84,7 @@ new Vue({
            title: "Themed Toppers",
            src: "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/44222_XXX_v2.tif&wid=480&cvt=jpeg",
            description:`
-                <strong>Birthday Crown</strong> – make any day esepcially regal by adding it to either our Interstellar Dance House or PDX Party slide <br/><br/>
+                <strong>Birthday Crown</strong> – make any day especially regal by adding this crown to either our Interstellar Dance House or PDX Party slide <br/><br/>
                 <strong>Party POW</strong> – Bring the party started right with the programmable LED lights and super-fun height to the Interstellar Dance House or PDX Party slide - perfect for
                 nighttime events!
             `,
@@ -93,12 +93,12 @@ new Vue({
            link: "http://pdx-fun.genbook.com"
        },
        */
-       add: {
-         title: "Add-Ons",
+       power: {
+         title: "Power Ups",
          src: "assets/img/pump.jpg",
          description: `
             All rentals come with a blower unit and cords for associated display and sound elements. Please consider your event's distance from a standard (120v) plug. 
-            <strong>Be sure</strong> to include it on the Rental Form <a href="assets/docs/final_release_waiver.docx" target="_blank">HERE</a> so we can more accurately plan your layout, and ensure 
+            <strong>Be sure</strong> to include it on the Rental Form so we can more accurately plan your layout, and ensure 
             that everything you need is included. (eg. Quiet Generators, Electrical Cord, or an extra-long water hose, etc.)
          `,
          name: "add",
@@ -114,7 +114,7 @@ new Vue({
             pizazz to your party!
          `,
          name: "photo",
-         button: "Reserve Now!",
+         button: "Coming Soon!",
          link: "http://pdx-fun.genbook.com"
        },
        
