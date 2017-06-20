@@ -12,7 +12,14 @@ Vue.component('modal', {
                 </div>
                 <hr>
                 <div class="modal-content centered">
-                    <img src="assets/img/portland_map.jpg" class="modal-image" />
+                    <a href="assets/img/portland_map.jpg" target="_blank"><img src="assets/img/portland_map.jpg" class="modal-image" /></a>
+                    <p class="small">*scroll for more information</p>
+                    <p>Drop Off In the Metro Area, is included in your rental!</p>
+                    <p>Deliveries are additional outside of the Portland Metro area, please speak to customer service about your needs.</p>
+                    <p>
+                        Setup and Tear Down Charges may apply when we must cart items over challenging terrain or over large distances, 
+                        please speak to customer service to determine final pricing after reserving your items through the website.
+                    </p>
                 </div>
                 <div class="modal-footer">
                     
@@ -34,7 +41,9 @@ new Vue({
          src: "assets/img/unicorn_bubble_slide.jpg",
          description: `
             Our premiere visionary item, the Unicorn Mountain Slide can be a bouncy waterless slide or simply hooked up to a standard
-            garden hose to add water misting from the archway on down the slide! Comes with a built-in bubble machine - because it's magical!<br>
+            garden hose to add water misting from the archway on down the slide! Comes with a built-in bubble machine - because it's magical!
+         `,
+         size: `
             22.3' wide x 15.5' tall
          `,
          name: "unicorn",
@@ -71,7 +80,9 @@ new Vue({
          src: "assets/img/interstellar_dance_house.jpg",
          description: `
             Built with height clearance for all ages, this bouncy Interstellar Dance House includes a bluetooth-enabled stereo
-            system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.<br>
+            system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.
+            `,
+         size: `
             19' wide x 15' tall before adding a Themed Topper of your choice! <a href="https://www.genbook.com/bookings/slot/reservation/30396544?&category=2553812765" target="_blank">Available here!</a>
          `,
          name: "disco",
@@ -95,11 +106,11 @@ new Vue({
        */
        power: {
          title: "Power Ups",
-         src: "assets/img/pump.jpg",
+         src: "assets/img/power-up.jpg",
          description: `
-            All rentals come with a blower unit and cords for associated display and sound elements. Please consider your event's distance from a standard (120v) plug. 
-            <strong>Be sure</strong> to include it on the Rental Form so we can more accurately plan your layout, and ensure 
-            that everything you need is included. (eg. Quiet Generators, Electrical Cord, or an extra-long water hose, etc.)
+            All rentals come with a blower unit and cords for respective display and sound elements.<br>
+            <strong>Please</strong> note how far you are from a standard (120v) plug at the time of rental, 
+            and we will discuss your layout by phone to ensure we include everything needed for your event!
          `,
          name: "add",
          button: "Reserve Now!",
@@ -108,7 +119,7 @@ new Vue({
        
        photo: {
          title: "Photo Ops",
-         src: "assets/img/photoop.jpg",
+         src: "assets/img/photo-ops.jpg",
          description: `
             Designed by local Portland artists specifically for PDXFun.me, our super awesome Instagram-ready backdrops bring that extra
             pizazz to your party!
