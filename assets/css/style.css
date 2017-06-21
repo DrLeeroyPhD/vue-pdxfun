@@ -434,6 +434,11 @@ figure:focus figcaption,figure.focus figcaption {
     transform:rotateY(0)
 }
 
+.section-foot{
+    margin-top: -100px;
+    text-shadow: 1px 1px 8px black;
+}
+
 /** About **/
 
 #about{
