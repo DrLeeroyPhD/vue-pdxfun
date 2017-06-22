@@ -14,7 +14,7 @@ Vue.component('modal', {
                 <div class="modal-content centered">
                     <a href="assets/img/portland_map.jpg" target="_blank"><img src="assets/img/portland_map.jpg" class="modal-image" /></a>
                     <p class="small">*scroll for more information</p>
-                    <p>Drop Off In the Metro Area, is included in your rental!</p>
+                    <p>Drop Off In the Metro Area included in your rental!</p>
                     <p>Deliveries are additional outside of the Portland Metro area, please speak to customer service about your needs.</p>
                     <p>
                         Setup and Tear Down Charges may apply when we must cart items over challenging terrain or over large distances, 
@@ -61,7 +61,10 @@ new Vue({
             `,
             name: "mondo",
             button: "Coming Soon!",
+            classes: "coming",
+            /*
             link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553792288"
+            */
        },
        
        splash: {
@@ -72,7 +75,10 @@ new Vue({
          `,
          name: "splash",
          button: "Coming Soon!",
+         classes: "coming",
+         /*
          link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553355350"
+         */
        },
        
        disco: {
@@ -126,7 +132,10 @@ new Vue({
          `,
          name: "photo",
          button: "Coming Soon!",
+         classes: "coming",
+         /*
          link: "http://pdx-fun.genbook.com"
+         */
        },
        
        deliver: {

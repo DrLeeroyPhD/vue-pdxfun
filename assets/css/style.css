@@ -43,8 +43,8 @@ input, button{
 }
 
 .section-head h2{
-    color: #95a5a6;
-    text-shadow: 0 0 1px black;
+    color: #ddd;
+    text-shadow: 0 0 3px black;
     font-size: 24px;
     font-weight: 300;
 }
@@ -284,8 +284,8 @@ h1.title{
 }
 
 h3.subtitle{
-    color: #95a5a6;
-    text-shadow: 1px 1px 1px black;
+    color: #ddd;
+    text-shadow: 1px 1px 4px black;
     font-size: 24px;
 }
 
@@ -374,6 +374,11 @@ h3.subtitle{
 
 .item:last-child{
     margin-bottom: 80px;
+}
+
+.coming{
+    color: black !important;
+    cursor: default;
 }
 
 figure figcaption {
