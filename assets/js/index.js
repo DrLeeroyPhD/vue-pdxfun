@@ -1,11 +1,11 @@
-Vue.component('modal', {
+Vue.component('delivery-modal', {
     template:
     `
-        <div id="modal-container" class="closed">
-          <div class="modal-overlay" id="modal-overlay" onclick="closeModal()"></div>
+        <div id="delivery-modal-container" class="closed">
+          <div class="modal-overlay" id="modal-overlay" onclick="closeDeliveryModal()"></div>
   
           <div class="modal" id="modal">
-            <button class="close-button" id="close-button" onclick="closeModal()">X</button>
+            <button class="close-button" id="close-button" onclick="closeDeliveryModal()">X</button>
             <div class="modal-guts">
                 <div class="modal-header">
                   <h1 style="font-size: 1.2em">We deliver throughout the Portland metro area</h1>
@@ -20,6 +20,37 @@ Vue.component('modal', {
                         Setup and Tear Down Charges may apply when we must cart items over challenging terrain or over large distances, 
                         please speak to customer service to determine final pricing after reserving your items through the website.
                     </p>
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+              
+            </div>
+          </div>
+        </div>
+    `
+});
+
+Vue.component('email-modal', {
+    template:
+    `
+        <div id="email-form-modal-container" class="closed">
+          <div class="modal-overlay" id="modal-overlay" onclick="closeEmailModal()"></div>
+  
+          <div class="modal" id="modal">
+            <button class="close-button" id="close-button" onclick="closeEmailModal()">X</button>
+            <div class="modal-guts">
+                <div class="modal-header">
+                  <h1 style="font-size: 1.2em">Contact Us!</h1>
+                </div>
+                <hr>
+                <div class="modal-content centered">
+                    <form class="modal-email-form" action="mailto:Kathryn.@pdxfun.me" method="post" enctype="text/plain">
+                      <input type="email" name="" placeholder="Enter Your Email Address" class="address" />
+                      <input type="text" name="" placeholder="Subject" class="subject" />
+                      <textarea name="message" rows="10" cols="30" placeholder="Message" class="message"></textarea>
+                      <input type="submit" value="Invite Me!" class="submit"/>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     
@@ -144,7 +175,7 @@ new Vue({
          description: "Just about anywhere in the Portland Metro area, and we're happy to discuss delivering a bit further, of course. (additional fees may apply)",
          name: "deliver",
          button: "Check it Out!",
-         function: "openModal()"
+         function: "openDeliveryModal()"
        }
      },
      reviews: {

@@ -1,0 +1,19 @@
+<div class="modal-content centered">
+    <a href="assets/img/portland_map.jpg" target="_blank"><img src="assets/img/portland_map.jpg" class="modal-image" /></a>
+    <p class="small">*scroll for more information</p>
+    <p>Drop Off In the Metro Area included in your rental!</p>
+    <p>Deliveries are additional outside of the Portland Metro area, please speak to customer service about your needs.</p>
+    <p>
+        Setup and Tear Down Charges may apply when we must cart items over challenging terrain or over large distances, 
+        please speak to customer service to determine final pricing after reserving your items through the website.
+    </p>
+</div>
+
+
+
+
+
+We deliver throughout the Portland metro area
+
+
+<modal-container  class="closed"
