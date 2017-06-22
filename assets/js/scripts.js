@@ -50,6 +50,9 @@ var body = document.querySelector("body");
 var deliveryModal = document.getElementById("delivery-modal-container");
 var emailModal = document.getElementById("email-form-modal-container");
 
+/*
+    I Realize this isn't the cleanest fix for multiple modals, but believe me when I say that I spent DAYS trying to make the modals' content dynamic
+*/
 function openDeliveryModal(){
     // Finds Viewport Width to see if img/modal will fit (temp fix)
     var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);

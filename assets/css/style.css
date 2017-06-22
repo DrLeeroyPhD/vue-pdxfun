@@ -393,6 +393,7 @@ h3.subtitle{
     padding: 6px 12px;
     line-height: 1.6;
     transition: box-shadow ease-in-out 0.15s;
+    color: black !important;
 }
 
 .item-button:hover{
@@ -409,7 +410,7 @@ h3.subtitle{
 }
 
 .coming{
-    color: black !important;
+    color: white !important;
     cursor: default;
 }
 
