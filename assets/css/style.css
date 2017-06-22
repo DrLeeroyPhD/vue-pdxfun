@@ -174,6 +174,38 @@ hr{
   border-radius: 10px;
 }
 
+/** Modal Email Form **/
+.modal-email-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-email-form input, .modal-email-form textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    width: 80%;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.modal-email-form .message{
+    border: 0;
+    border-radius: 4px;
+    font-family: inherit;
+    min-width: 80%;
+    max-width: 80%;
+}
+
+.modal-email-form .submit{
+    width: 25%;
+    min-width: 120px;
+}
+
 /***** SECTION SPECIFIC *****/
 
 /** Navigation **/

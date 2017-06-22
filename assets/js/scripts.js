@@ -47,9 +47,10 @@ sr.reveal('.inflate', {
 
 /***** Disable Scrolling During Modal *****/
 var body = document.querySelector("body");
-var modal = document.getElementById("modal-container");
+var deliveryModal = document.getElementById("delivery-modal-container");
+var emailModal = document.getElementById("email-form-modal-container");
 
-function openModal(){
+function openDeliveryModal(){
     // Finds Viewport Width to see if img/modal will fit (temp fix)
     var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     if(w <= 700){
@@ -58,13 +59,23 @@ function openModal(){
         win.focus();
     } else{
         body.className += " no-scroll";
-        modal.classList.remove("closed");
+        deliveryModal.classList.remove("closed");
     }
 }
 
-function closeModal(){
+function closeDeliveryModal(){
     body.classList.remove("no-scroll");
-    modal.className += " closed";
+    deliveryModal.className += " closed";
+}
+
+function openEmailModal(){
+    body.className += " no-scroll";
+    emailModal.classList.remove("closed");
+}
+
+function closeEmailModal(){
+    body.classList.remove("no-scroll");
+    emailModal.className += " closed";
 }
 
 /***** Copyright Year *****/

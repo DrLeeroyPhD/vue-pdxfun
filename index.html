@@ -124,21 +124,22 @@
           <hr>
           <div class="pre-footer">
             <a href="assets/docs/FAQs_and_Legalese-PDXFUN.pdf" target="_blank">FAQ & Legalese</a>
-            <p><a href="mailto:Kathryn.@pdxfun.me?Subject=Lets%20Talk%20Business" target="_top">Partner With Us!</a> – Need super-team help with your permit process or to brainstorm a big event idea or Partnership?<br> 
-            <a href="mailto:Kathryn.@pdxfun.me?Subject=Lets%20Talk%20Business" target="_top">Contact Us</a> directly to team up with our event pros!</p>
+            <p><a href="mailto:Kathryn.@pdxfun.me?Subject=Lets%20Talk%20Business" target="_top" onclick="openEmailModal()">Partner With Us!</a> – Need super-team help with your permit process or to brainstorm a big event idea or Partnership?<br> 
+            <a href="mailto:Kathryn.@pdxfun.me?Subject=Lets%20Talk%20Business" target="_top" onclick="openEmailModal()">Contact Us</a> directly to team up with our event pros!</p>
           </div>
           <hr>
           <p>&copy; PDX Fun <span id="copy"></span></p>
           <hr>
         </section>
 
-        <modal v-cloak></modal>
+        <Delivery-Modal v-cloak></Delivery-Modal>
+        <Email-Modal v-cloak></Email-Modal>
       </div>
       
       <script type="text/javascript" src="assets/js/rellax.min.js"></script>
       <script type="text/javascript" src="assets/js/index.js"></script>
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
       <script type="text/javascript" src="assets/js/smooth-scroll.min.js"></script>
-      <script type="text/javascript" src="assets/js/scripts.min.js"></script>
+      <script type="text/javascript" src="assets/js/scripts.js"></script>
     </body>
 </html>
