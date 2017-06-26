@@ -75,7 +75,7 @@ new Vue({
             garden hose to add water misting from the archway on down the slide! Comes with a built-in bubble machine - because it's magical!
          `,
          size: `
-            22.3' wide x 15.5' tall
+            <em>Size:</em> 22.3' wide x 15.5' tall
          `,
          name: "unicorn",
          button: "Reserve Now!",
@@ -98,20 +98,6 @@ new Vue({
             */
        },
        
-       splash: {
-         title: "Splash Pool",
-         src: "assets/img/splash_pool.jpg",
-         description: `
-            This 15' x 15' Splash Pool is an easy and almost instant party in the yard!... Or, pair it with any of our other inflatables to pump up the fun even further!
-         `,
-         name: "splash",
-         button: "Coming Soon!",
-         classes: "coming",
-         /*
-         link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553355350"
-         */
-       },
-       
        disco: {
          title: "Interstellar Dance House",
          src: "assets/img/interstellar_dance_house.jpg",
@@ -120,7 +106,7 @@ new Vue({
             system and beat-responsive LED disco ball that changes color when synced to your soundtrack of choice - just plug & play.
             `,
          size: `
-            19' wide x 15' tall before adding a Themed Topper of your choice! <a href="https://www.genbook.com/bookings/slot/reservation/30396544?&category=2553812765" target="_blank">Available here!</a>
+            <em>Size:</em> 19' wide x 15' tall before adding a Power Up of your choice! <a href="https://www.genbook.com/bookings/slot/reservation/30396544?&category=2553812765" target="_blank">Available here!</a>
          `,
          name: "disco",
          button: "Reserve Now!",
@@ -141,13 +127,28 @@ new Vue({
            link: "http://pdx-fun.genbook.com"
        },
        */
+       
+       splash: {
+         title: "Splash Pool",
+         src: "assets/img/splash_pool.jpg",
+         description: `
+            This 15' x 15' Splash Pool is an easy and almost instant party in the yard!... Or, pair it with any of our other inflatables to pump up the fun even further!
+         `,
+         name: "splash",
+         button: "Coming Soon!",
+         classes: "coming",
+         /*
+         link: "https://www.genbook.com/bookings/slot/reservation/30396544/2553355350"
+         */
+       },
+       
        power: {
          title: "Power Ups",
          src: "assets/img/power-up.jpg",
          description: `
             All rentals come with a blower unit and cords for respective display and sound elements.<br>
-            <strong>Please</strong> note how far you are from a standard (120v) plug at the time of rental, 
-            and we will discuss your layout by phone to ensure we include everything needed for your event!
+            When booking, <strong>please</strong> note event site's distance from a standard (120v) plug.<br>
+            We will discuss your layout by phone to help ensure everything needed for your event is included!
          `,
          name: "add",
          button: "Reserve Now!",
